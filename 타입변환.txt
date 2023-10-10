@@ -1,0 +1,18 @@
+package 변수;
+
+public class 기본형심화_타입변환 {
+
+	public static void main(String[] args) {
+		byte age = 127; //1바이트
+		int age2 = age; //4바이트
+		//큰방 <-- 작은방 : 자동으로 알아서 들어감..
+		
+		int age3 = 127; //4바이트
+		//byte age 34 = age3 //1비이트(에러)
+		byte age4 = (byte)age3;
+		//작은방 <-- (작은방의 타입)큰방 : 강제로 잘란서 넣어주어야함.
+		//강제 타입 변환(강제형변환, casting, 캐스팅)
+
+	}
+
+}
