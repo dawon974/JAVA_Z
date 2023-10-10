@@ -1,0 +1,24 @@
+package 복습;
+
+import javax.swing.JOptionPane;
+
+public class 순차문확인문제4 {
+
+	public static void main(String[] args) {
+		
+		//final double AGE = 100;
+		
+		String temper = JOptionPane.showInputDialog("온도를 입력하세요");
+		
+		double t = Double.parseDouble(temper);
+		if(t>=25) {
+			System.out.println("너무 더워요.");
+		}
+		else {
+			System.out.println("괜찮아요");
+			
+		}
+	
+	}
+
+}

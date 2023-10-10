@@ -1,0 +1,23 @@
+package 복습;
+
+import javax.swing.JOptionPane;
+
+public class 순차문확인문제 {
+
+	public static void main(String[] args) {
+		String data1 = JOptionPane.showInputDialog("몸무게");
+		String data2 = JOptionPane.showInputDialog("신장");
+		//몸무게와 신장의 정보를 입력 받는다.
+		
+		double w = Double.parseDouble(data1);
+		double h = Double.parseDouble(data2);
+		//실수의 값으로 형 변환
+		double bmi = w / (h*h);
+		
+		JOptionPane.showMessageDialog(null, "bmi결과는 " +bmi);
+		System.out.println("bmi 결과는" +bmi);
+		
+
+	}
+
+}

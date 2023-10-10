@@ -1,0 +1,27 @@
+package 복습;
+
+import javax.swing.JOptionPane;
+
+public class 순차문확인문제7 {
+
+	public static void main(String[] args) {
+		/*String wp = JOptionPane.showInputDialog("생수값은");
+		String wc = JOptionPane.showInputDialog("생수개수는");
+		String mc = JOptionPane.showInputDialog("마스크 값은 ");
+		String mp = JOptionPane.showInputDialog("마스크 구매개수는 ");*/
+		int wp = 1000;
+		int wc = 2;
+		int mp = 2000;
+		int mc = 3;
+		//변수는 상수가 아니면 소문자로 사용한다.!
+		
+		int wr = wp*wc;
+		int mr = mp*mc;
+		int pay = wr+mr;
+		
+		System.out.println(wr + " " + mr + " " +pay);
+
+
+	}
+
+}

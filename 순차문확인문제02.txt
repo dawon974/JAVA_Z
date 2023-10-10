@@ -1,0 +1,21 @@
+package 복습;
+
+import javax.swing.JOptionPane;
+
+public class 순차문확인문제2 {
+
+	public static void main(String[] args) {
+		String now = JOptionPane.showInputDialog("현재까지의 누적 포인트: ");
+		String plus = JOptionPane.showInputDialog("추가 포인트: ");
+		
+		int p = Integer.parseInt(now);
+		double pp = Double.parseDouble(plus);
+		
+		double result = p+pp;
+		
+		JOptionPane.showMessageDialog(null, "최종 포인트는 " +result);
+		System.out.println("최종 포인트는" +result);
+
+	}
+
+}

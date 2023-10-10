@@ -1,0 +1,27 @@
+package 복습;
+
+import javax.swing.JOptionPane;
+
+public class 순차문확인문제3 {
+
+	public static void main(String[] args) {
+		String x1 = JOptionPane.showInputDialog("x를 입력하세요");
+		String y1 = JOptionPane.showInputDialog("y를 입력하세요");
+		
+		int x = Integer.parseInt(x1);
+		int y = Integer.parseInt(y1);
+		
+		int p = x+y;
+		int m = x-y;
+		int mu = x*y;
+		int d = x/y;
+		
+		System.out.println("두 수의 합은 " + p);
+		System.out.println("두 수의 차는 " + m);
+		System.out.println("두 수의 곱은 " + mu);
+		System.out.println("두 수의 나눗셈은 " + d);
+		
+
+	}
+
+}

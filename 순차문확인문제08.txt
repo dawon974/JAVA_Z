@@ -1,0 +1,17 @@
+package 복습;
+
+public class 순차문확인문제8 {
+
+	public static void main(String[] args) {
+		int k = 75;
+		int m = 50;
+		
+		int sum = k+m;
+		double avg = (double)sum/2;
+		
+		System.out.println(sum);
+		System.out.println(avg);
+
+	}
+
+}
